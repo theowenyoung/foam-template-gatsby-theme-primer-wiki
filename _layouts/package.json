@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "wiki",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop -H 0.0.0.0",
+    "start": "gatsby develop -H 0.0.0.0",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo test"
+  },
+  "dependencies": {
+    "gatsby": "^3.12.0",
+    "gatsby-source-filesystem": "^3.12.0",
+    "gatsby-theme-primer-wiki": "^1.9.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
