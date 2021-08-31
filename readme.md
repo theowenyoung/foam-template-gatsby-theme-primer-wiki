@@ -8,6 +8,11 @@ tags:
 
 **👋Another Foam template that use [gatsby-theme-primer-wiki](https://github.com/theowenyoung/gatsby-theme-primer-wiki), Welcome to your new Foam Knowledge Base!**
 
+## Examples
+
+- [Foam Demo](https://foam.demo.owenyoung.com/) - ([Source](https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki))
+- [Demo](https://wiki.demo.owenyoung.com/) - ([Source](https://github.com/theowenyoung/gatsby-theme-primer-wiki/tree/main/example))
+- [Everything I Know by Owen](https://wiki.owenyoung.com/) - ([Source](https://github.com/theowenyoung/wiki))
 ## Getting started
 
 This documentation assumes that you have a GitHub account and have [Visual Studio Code](https://code.visualstudio.com/) installed on your Linux/MacOS/Windows machine.
