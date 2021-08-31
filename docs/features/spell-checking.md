@@ -1,4 +1,8 @@
-# Spell Checking
+---
+title: Spell Checking
+tags:
+  - Templates
+---
 
 Foam comes with a spell checker.
 

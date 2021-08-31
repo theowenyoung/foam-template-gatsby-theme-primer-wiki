@@ -11,7 +11,7 @@ jobs:
       - name: Setup | Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: "14"
 
       - name: Install latest npm
         run: npm i -g npm
@@ -29,14 +29,14 @@ jobs:
             ${{ runner.os }}-
       - name: Install dependencies
         run: npm i
-        working-directory: _layouts
+        working-directory: .layouts
 
       - name: Build Site
         run: npm run build
-        working-directory: _layouts
+        working-directory: .layouts
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./_layouts/public
+          publish_dir: ./.layouts/public
           github_token: ${{ secrets.GITHUB_TOKEN }}

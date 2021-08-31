@@ -1,10 +1,10 @@
 ---
+title: Tags and Tag Explorer
 tags: 
   - my-tag1
   - my-tag2
 ---
 
-# Tags and Tag Explorer
 
 ## Tags
 

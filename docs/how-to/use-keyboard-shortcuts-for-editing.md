@@ -1,4 +1,9 @@
-# Use Keyboard Shortcuts for Editing
+---
+title: Use Keyboard Shortcuts for Editing
+tags:
+  - Shortcut
+---
+
 
 Here are some keyboard shortcuts you'll love when editing your notes.
 

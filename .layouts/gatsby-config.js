@@ -1,4 +1,3 @@
-const path = require("path");
 const siteMetadata = {
   title: "Gatsby Theme Primer Wiki",
   shortName: "Wiki",
@@ -16,13 +15,18 @@ module.exports = {
       options: {
         name: "content",
         path: `${__dirname}/..`,
-        ignore: [`**/\.*`,'**/_layouts/**',]
+        ignore: [`**/\.*/**/*`]
       },
     },
     {
       resolve: "gatsby-theme-primer-wiki",
       options: {
-        sidebarDepth: 2,
+        nav:[
+          {
+            title:"Github",
+            url:"https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki/"
+          }
+        ],
         editUrl:
           "https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki/tree/main/",
       },

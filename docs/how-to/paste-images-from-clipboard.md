@@ -1,4 +1,10 @@
-# Paste Images from Clipboard
+---
+title: Paste Images from Clipboard
+tags:
+  - How-to
+  - VsCode
+---
+
 
 You can paste an image from the clipboard with `cmd+alt+v`.
 
