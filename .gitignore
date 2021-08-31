@@ -2,7 +2,10 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.obsidian/cache
+.obsidian/workspace
 public
+
 # Icon must end with two \r
 Icon
 

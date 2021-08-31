@@ -28,7 +28,6 @@ module.exports = {
       resolve: "gatsby-theme-primer-wiki",
       options: {
         nav: [
-      
           {
             title: "Github",
             url: "https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki/",
@@ -38,7 +37,8 @@ module.exports = {
             url: "https://twitter.com/theowenyoung",
           },
         ],
-        editUrl: "https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki/tree/main/",
+        editUrl:
+          "https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki/tree/main/",
       },
     },
     {
@@ -61,6 +61,13 @@ module.exports = {
         host: siteMetadata.siteUrl,
         sitemap: `${siteMetadata.siteUrl}/sitemap/sitemap-index.xml`,
         policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [],
       },
     },
   ],
