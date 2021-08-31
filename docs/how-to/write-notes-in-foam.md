@@ -23,18 +23,6 @@ You can see the formatted output by running the `Markdown: Open Preview to the S
 
 Here is a high level overview of Markdown, for more information on the markdown syntax [see here](https://commonmark.org/help/).
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
 This is a [link to google](https://www.google.com).
 
 This is a wiki link (aka internal link) to [[note-properties]].
