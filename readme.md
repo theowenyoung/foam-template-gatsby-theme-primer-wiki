@@ -13,6 +13,7 @@ tags:
 - [Demo](https://demo-wiki.owenyoung.com) - ([Source](https://github.com/theowenyoung/gatsby-theme-primer-wiki/tree/main/example))
 - [Everything I Know by Owen](https://wiki.owenyoung.com/) - ([Source](https://github.com/theowenyoung/wiki))
 - [Foam Demo](https://demo-foam.owenyoung.com/) - ([Source](https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki))
+- [Obsidian Demo](https://demo-obsidian.owenyoung.com/) - ([Source](https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki))
 - [Gatsby Starter Demo](https://demo-gatsby-starter-primer-wiki.owenyoung.com/) - ([Source](https://github.com/theowenyoung/gatsby-starter-primer-wiki))
 
 ## Features
@@ -33,7 +34,7 @@ tags:
 
 Here are my main ideas/principles in designing this theme.
 
-1. No vendor lock-in. The less vendor features you use, the better you'll be able to migrate, including this theme. So we should only write standard markdown. I like `[[WikiLink]]`, but I love standard markdown more. So we should always use standard markdown link `[text](https://example.com)`, or use [Wikilink](https://foambubble.github.io/foam/wikilinks) with [Link Reference Definitions](https://foambubble.github.io/foam/features/link-reference-definitions), and don't use any vendor locked-in feature. That give us the capability change our theme, or hosted place.
+1. No vendor lock-in. The less vendor features you use, the better you'll be able to migrate. `[[Wikilink]]` is the only non-markdown feature supported by default, but nonetheless, it is recommended to use the standard markdown syntax, or if you edit with [Foam](https://github.com/foambubble/foam), please use [Wikilink](https://foambubble.github.io/foam/wikilinks) with [Link Reference Definitions](https://foambubble.github.io/foam/features/link-reference-definitions). That give us the capability change our theme, or hosted place.
 2. Use meta data instead of special characters. We should use `tags` as the document's metadata, not `#tag` in the plain text.
 3. Use tags instead of categories. Minimal subfolders.
 
