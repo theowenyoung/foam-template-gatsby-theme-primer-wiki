@@ -40,6 +40,8 @@ Here are my main ideas/principles in designing this theme.
 
 ## Getting started
 
+### For new wiki
+
 This documentation assumes that you have a GitHub account and have [Visual Studio Code](https://code.visualstudio.com/) installed on your Linux/MacOS/Windows machine.
 
 1. If you haven't yet, browse over to the main [Foam documentation](https://foambubble.github.io/foam) to get an idea of what Foam is and how to use it.
@@ -55,6 +57,18 @@ After setting up the repository, head to [[getting-started]] to get familiar wit
 To learn more about how to use **Foam**, read the [Recipes](https://foambubble.github.io/foam/recipes/recipes) bubbles of the Foam documentation workspace.
 
 And remember that you can always join our [Foam community on Discord](https://foambubble.github.io/join-discord/g)!
+
+### For exist wiki
+
+### Exist Wiki
+
+1. Clone this repo to your local machine
+
+```bash
+git clone https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki.git
+```
+
+2. Copy `.layouts`, `.github` `.gitignore` to your wiki folder.
 
 ## Config
 
