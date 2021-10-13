@@ -51,6 +51,7 @@ This documentation assumes that you have a GitHub account and have [Visual Studi
    _Open the repository as a folder using the `File > Open...` menu item._
 
 4. When prompted to install recommended extensions, click **Install all** (or **Show Recommendations** if you want to review and install them one by one)
+5. Change Site settings at `.layouts/gatsby-config.js`, change your CNAME at `.layouts/static/CNAME`, change your icon at `.layouts/static/logo.png`
 
 After setting up the repository, head to [[getting-started]] to get familiar with your new knowledge base!
 
