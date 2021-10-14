@@ -22,6 +22,7 @@ module.exports = {
       // Change me
       options: {
         icon: "./static/logo.png",
+        sidebarComponents: ["latest", "tag"],
         nav: [
           {
             title: "Github",
