@@ -1,5 +1,6 @@
 const path = require("path");
 const pathPrefix = "/";
+// Change me
 const siteMetadata = {
   title: "Foam Template for Gatsby Theme Primer Wiki",
   shortName: "Wiki",
@@ -17,16 +18,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "content",
-        path: `${__dirname}/..`,
-        ignore: [`**/\.*/**/*`],
-      },
-    },
-    {
       resolve: "gatsby-theme-primer-wiki",
+      // Change me
       options: {
+        icon: "./static/logo.png",
         nav: [
           {
             title: "Github",
@@ -41,6 +36,15 @@ module.exports = {
           "https://github.com/theowenyoung/foam-template-gatsby-theme-primer-wiki/tree/main/",
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "content",
+        path: `${__dirname}/..`,
+        ignore: [`**/\.*/**/*`],
+      },
+    },
+
     {
       resolve: "gatsby-plugin-manifest",
       options: {
