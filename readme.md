@@ -29,6 +29,7 @@ tags:
 - Support Google Analytics
 - Support Sitemap/Robot
 - SEO optimization
+- Support path prefix
 
 ## Principles
 
@@ -83,9 +84,30 @@ npm i
 npm start
 ```
 
+
 ## Deploy
 
 Deploy to Github Pages, see `.github/workflows/deploy.yml`,
+
+### Path Prefix
+
+If you want deploy your site with prefix path, 
+
+1. change `gatsby-config.js` with:
+
+```javascript
+module.exports = {
+  pathPrefix: `/blog`,
+}
+```
+
+2. set your build script with `gatsby build --prefix-paths`,
+
+
+3. Local Preview with `gatsby serve --prefix-paths`
+
+
+Also see the original docs: <https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/path-prefix/#add-to-gatsby-configjs>
 
 ## Using Foam
 
