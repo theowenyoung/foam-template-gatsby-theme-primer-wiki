@@ -14,10 +14,7 @@ jobs:
       - name: Setup | Node
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
-
-      - name: Install latest npm
-        run: npm i -g npm
+          node-version: "16"
       - name: Cache node modules
         uses: actions/cache@v2
         env:
